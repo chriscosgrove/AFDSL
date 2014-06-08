@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="83faf59ad56c44ecb5fff59befd74617" Name="Diagram1" ZoomLevel="101" >
+        <EntityTypeShape EntityType="afdsl_Model.cmsMember" Width="1.5" PointX="0.5" PointY="0.625" />
+        <AssociationConnector Association="afdsl_Model.FK_cmsMember_cmsMember" />
+        <EntityTypeShape EntityType="afdsl_Model.afdsl_Custom_User_Table" Width="1.5" PointX="4" PointY="0.75" />
+        <AssociationConnector Association="afdsl_Model.FK_afdsl_Custom_User_Table_afdsl_Custom_User_Table" />
+        <AssociationConnector Association="afdsl_Model.FK_cmsMember_afdsl_Custom_User_Table" />
+        <EntityTypeShape EntityType="afdsl_Model.afdsl_Newsletter" Width="1.5" PointX="7.75" PointY="1.125" />
+        <AssociationConnector Association="afdsl_Model.FK_afdsl_Newsletter_afdsl_Custom_User_Table" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

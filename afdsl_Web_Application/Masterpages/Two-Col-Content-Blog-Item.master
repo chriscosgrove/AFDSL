@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">	
+
+<section class="container pageContent blogItemPage">	
+	<div class="sixteen columns">
+		<div class="blogTitle">
+			<h1 class=""><umbraco:Item field="blogTitle" runat="server" /></h1>
+		</div>
+	</div>
+	<div class="sixteen columns">
+		<div  class="blogCreatorAndDate">
+			<span> Posted by </span> <umbraco:Item field="creatorName" runat="server" /> <span> on </span>
+			<umbraco:Item field="createDate" runat="server" />
+		</div>
+	</div>
+	<div class="sixteen columns">
+		<div class="blogImage">
+			<img src='<umbraco:Item field="imageForBlog" runat="server" />' alt="" title=""/>
+		<div class="blogBlockQuote">
+			<blockquote><umbraco:Item field="blogQuote" runat="server" /></blockquote>		
+		</div>
+		</div>
+		<div class="blogContent">
+			<p><umbraco:Item field="bodyOfContentBlog" runat="server" /></p>		
+		</div>
+	</div>
+</section>
+</asp:Content>

@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+
+<asp:content ContentPlaceHolderId="Content" runat="server">
+	<section class="container">
+	<img class="" src="/Web_Assets/Images/afdsl_ContactUsBanner.png"/>
+	</section>
+	<section class="container pageContent">
+		<div class="nine columns">
+			<h4>Address</h4>
+		</div>
+		<div class="nine columns Address">
+			<img class="" src="/Web_Assets/Images/afdsl_HomeIcon.png"/>
+			<ul>
+				<li>Acoustic and Fire Door Solutions</li>
+				<li>3 Esplanade</li>
+				<li>Broughty Ferry</li>
+				<li>Dundee</li>
+				<li>DD5 2EL</li>
+				<li>United Kingdom</li>
+			</ul>
+		</div>
+		<div class="nine columns address">
+			<h4>General Enquiries</h4>
+		</div>
+		<div class="fourteen columns Address">
+			<div class="six columns">
+				<img class="" src="/Web_Assets/Images/afdsl_MobileIcon.png"/>
+				<div class="TelephoneNumber">
+					<h5>Telephone</h5>
+					<p>+447815589447</p>
+				</div>
+			</div>
+			<div class="six columns">
+				<img class="" src="/Web_Assets/Images/afdsl_MailEvelope.png"/>
+				<div class="TelephoneNumber">
+					<h5>E-Mail</h5>
+					<p>kshepherd@afdsl.com</p>
+				</div>
+			</div>
+		</div>
+
+<div class="nine columns address">
+			<h4>Technical Enquiries</h4>
+		</div>
+		<div class="fourteen columns Address">
+			<div class="six columns">
+				<img class="" src="/Web_Assets/Images/afdsl_MobileIcon.png"/>
+				<div class="TelephoneNumber">
+					<h5>Telephone</h5>
+					<p>+447815589447</p>
+				</div>
+			</div>
+			<div class="six columns">
+				<img class="" src="/Web_Assets/Images/afdsl_MailEvelope.png"/>
+				<div class="TelephoneNumber">
+					<h5>E-Mail</h5>
+					<p>chris@doorconsult.co.uk</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</asp:content>

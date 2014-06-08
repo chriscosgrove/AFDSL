@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<umbPackage><info>
+<package>
+<name>TG.Umb.DateFolder</name>
+<version>0.1</version>
+<license url="http://umbraco.org/gpl.aspx">umbraco gpl</license>
+<url>http://tim.netcentric.be</url>
+<requirements><major>3</major><minor>0</minor><patch>0</patch></requirements></package><author>
+<name>Tim Geyssens</name>
+<website>http://tim.netcentric.be</website>
+</author>
+<readme><![CDATA[Place your documents in datefolders ( like in the blog package ). ]]></readme>
+</info>
+<DocumentTypes>
+<DocumentType>
+<Info>
+<Name>DateFolder</Name>
+<Alias>DateFolder</Alias>
+<Icon>folder.gif</Icon>
+</Info>
+<Structure>
+<DocumentType>DateFolder</DocumentType>
+</Structure>
+</DocumentType>
+</DocumentTypes>
+<Templates>
+</Templates>
+<Stylesheets>
+</Stylesheets>
+<macros>
+</macros><files>
+<file><guid>c8eadde9-3e17-42b8-8078-f2235ab14afe_TG.Umb.DateFolder.dll</guid><orgPath>/bin</orgPath><orgName>TG.Umb.DateFolder.dll</orgName></file>
+<file><guid>c18b61e7-75ac-4ef6-8c1c-63be64969aff_DateFolder.config</guid><orgPath>/config/TG.Umb.DateFolder</orgPath><orgName>DateFolder.config</orgName></file>
+<file><guid>d5e997a6-b1e5-4e55-9cdb-1b6f182a3d14_DateFolderInstall.ascx</guid><orgPath>/usercontrols</orgPath><orgName>DateFolderInstall.ascx</orgName></file>
+</files>
+<control>/usercontrols/DateFolderInstall.ascx</control>
+</umbPackage>

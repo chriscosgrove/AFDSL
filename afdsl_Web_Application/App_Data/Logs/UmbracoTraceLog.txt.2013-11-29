@@ -1,0 +1,747 @@
+2013-11-29 00:05:02,546 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Distribution' with Id '1063' has been published.
+2013-11-29 00:05:21,945 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Distribution' with Id '1063' has been published.
+2013-11-29 00:47:09,351 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Distribution' with Id '1063' has been published.
+2013-11-29 00:47:31,846 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Distribution' with Id '1063' has been published.
+2013-11-29 00:48:58,968 [39] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 1066
+2013-11-29 00:49:12,528 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Contact Us' with Id '1066' has been published.
+2013-11-29 00:49:18,058 [39] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Contact Us' with Id '1066' has been published.
+2013-11-29 00:54:41,205 [39] INFO  umbraco.BusinessLogic.Log - [Thread 25] Log scrubbed.  Removed all items older than 2013-09-30 00:54:41
+2013-11-29 00:54:41,205 [39] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 25] Application shutdown. Reason: MaxRecompilationsReached
+2013-11-29 00:54:42,328 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Determining hash of code files on disk
+2013-11-29 00:54:42,428 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Hash determined (took 58ms)
+2013-11-29 00:54:42,462 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 00:54:42,986 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 523ms)
+2013-11-29 00:54:43,094 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 00:54:43,121 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2013-11-29 00:54:43,128 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 00:54:43,144 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2013-11-29 00:54:43,144 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 00:54:43,155 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 12ms)
+2013-11-29 00:54:43,171 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 00:54:43,178 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2013-11-29 00:54:43,178 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 00:54:43,194 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2013-11-29 00:54:44,528 [32] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Initializing Examine and binding to business logic events
+2013-11-29 00:54:44,528 [32] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Adding examine event handlers for index providers: 3
+2013-11-29 00:54:44,569 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 00:54:44,605 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 37ms)
+2013-11-29 00:54:44,778 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 00:54:44,847 [32] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 71ms)
+2013-11-29 00:54:46,048 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 00:54:46,095 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 45ms)
+2013-11-29 00:54:46,328 [32] INFO  umbraco.content - [Thread 31] Loading content from disk cache...
+2013-11-29 00:54:46,528 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-11-29 00:54:46,533 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 15ms)
+2013-11-29 00:54:46,553 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:54:47,569 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:55:14,194 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-11-29 00:55:14,235 [32] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 40ms)
+2013-11-29 00:56:03,346 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 42] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:56:04,705 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 36] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:56:17,334 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:56:52,245 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_FileService()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:12,105 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:14,841 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 31] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:15,724 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:16,550 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:17,194 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 36] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:19,646 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 35] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentService()
+   at umbraco.cms.presentation.editContent.OnInit(EventArgs e)
+   at System.Web.UI.Control.InitRecursive(Control namingContainer)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:32,478 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 25] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [3]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at umbraco.cms.presentation.Trees.BaseContentTree.Render(XmlTree& Tree)
+   at umbraco.loadContent.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:43,778 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [3]: 
+   at System.Lazy`1.get_Value()
+   at umbraco.cms.presentation.Trees.BaseContentTree.Render(XmlTree& Tree)
+   at umbraco.loadContent.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:57:54,828 [32] ERROR dashboardUtilities.FeedProxy - [Thread 35] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 00:57:55,204 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 36] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [3]: 
+   at System.Lazy`1.get_Value()
+   at umbraco.cms.presentation.Trees.BaseContentTree.Render(XmlTree& Tree)
+   at umbraco.loadContent.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:58:05,094 [32] ERROR dashboardUtilities.FeedProxy - [Thread 5] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 00:58:06,383 [32] ERROR dashboardUtilities.FeedProxy - [Thread 41] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 00:58:09,511 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 35] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [3]: 
+   at System.Lazy`1.get_Value()
+   at umbraco.cms.presentation.Trees.BaseContentTree.Render(XmlTree& Tree)
+   at umbraco.loadContent.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:58:09,598 [32] ERROR dashboardUtilities.FeedProxy - [Thread 31] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 00:59:13,667 [32] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 25] An unhandled exception occurred
+System.InvalidOperationException: Resolution is not frozen, it is not yet possible to get values from it.
+
+Server stack trace: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [0]: 
+   at Umbraco.Core.ObjectResolution.SingleObjectResolverBase`2.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<.ctor>b__0()
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.LazyInitValue()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__9()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [1]: 
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__5()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [2]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__c()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [3]: 
+   at System.Lazy`1.get_Value()
+   at Umbraco.Core.Services.ServiceContext.<>c__DisplayClasse.<BuildServiceCache>b__7()
+   at System.Lazy`1.CreateValue()
+
+Exception rethrown at [4]: 
+   at Umbraco.Core.Services.ServiceContext.get_ContentTypeService()
+   at umbraco.loadNodeTypes.Render(XmlTree& tree)
+   at umbraco.presentation.webservices.TreeDataService.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-11-29 00:59:26,122 [32] ERROR dashboardUtilities.FeedProxy - [Thread 36] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 00:59:34,280 [32] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2013-09-30 00:59:34
+2013-11-29 00:59:34,287 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 5] Application shutdown. Reason: ConfigurationChange
+2013-11-29 00:59:38,033 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-29 00:59:38,215 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 79ms)
+2013-11-29 00:59:38,249 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 00:59:38,931 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 674ms)
+2013-11-29 00:59:39,045 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 00:59:39,061 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2013-11-29 00:59:39,072 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 00:59:39,100 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 26ms)
+2013-11-29 00:59:39,100 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 00:59:39,113 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 12ms)
+2013-11-29 00:59:39,121 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 00:59:39,135 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2013-11-29 00:59:39,137 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 00:59:39,153 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2013-11-29 00:59:40,894 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-29 00:59:40,902 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-29 00:59:40,951 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 00:59:40,988 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 40ms)
+2013-11-29 00:59:41,178 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 00:59:41,263 [44] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 97ms)
+2013-11-29 00:59:42,365 [44] INFO  umbraco.content - [Thread 35] Loading content from disk cache...
+2013-11-29 00:59:44,066 [44] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-29 00:59:44,079 [44] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 12ms)
+2013-11-29 01:03:01,481 [44] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-11-29 01:03:01,518 [44] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 38ms)
+2013-11-29 01:03:01,944 [44] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 01:03:02,028 [44] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 84ms)
+2013-11-29 01:03:02,298 [44] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-11-29 01:03:02,315 [44] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 16ms)
+2013-11-29 01:05:53,985 [44] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.interfaces.IDataType
+2013-11-29 01:05:54,073 [44] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 87ms)
+2013-11-29 01:06:08,548 [44] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Contact Us' with Id '1066' has been published.
+2013-11-29 01:06:13,344 [44] ERROR dashboardUtilities.FeedProxy - [Thread 34] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Int32 timeout, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2013-11-29 01:36:07,952 [44] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2013-09-30 01:36:07
+2013-11-29 01:36:07,964 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 32] Application shutdown. Reason: MaxRecompilationsReached
+2013-11-29 01:36:09,315 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Determining hash of code files on disk
+2013-11-29 01:36:09,428 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Hash determined (took 80ms)
+2013-11-29 01:36:09,471 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 01:36:09,946 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 475ms)
+2013-11-29 01:36:10,028 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 01:36:10,044 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+2013-11-29 01:36:10,044 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 01:36:10,060 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2013-11-29 01:36:10,060 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 01:36:10,060 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 8ms)
+2013-11-29 01:36:10,076 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 01:36:10,080 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2013-11-29 01:36:10,080 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 01:36:10,096 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2013-11-29 01:36:11,496 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Initializing Examine and binding to business logic events
+2013-11-29 01:36:11,496 [25] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 29] Adding examine event handlers for index providers: 3
+2013-11-29 01:36:11,521 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 01:36:11,539 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 24ms)
+2013-11-29 01:36:11,643 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 01:36:11,734 [25] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 78ms)
+2013-11-29 01:36:13,401 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 01:36:13,446 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 45ms)
+2013-11-29 01:36:13,766 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2013-11-29 01:36:13,781 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 17ms)
+2013-11-29 01:36:18,056 [25] INFO  umbraco.content - [Thread 37] Loading content from disk cache...
+2013-11-29 01:36:19,007 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-29 01:36:19,028 [25] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 12ms)
+2013-11-29 01:37:20,619 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2013-11-29 01:37:20,665 [25] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 38ms)
+2013-11-29 02:00:01,578 [25] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2013-09-30 02:00:01
+2013-11-29 02:00:01,578 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: HostingEnvironment
+2013-11-29 10:56:01,001 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-29 10:56:01,049 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 30ms)
+2013-11-29 10:56:01,076 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 10:56:01,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 441ms)
+2013-11-29 10:56:01,598 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 10:56:01,613 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+2013-11-29 10:56:01,621 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 10:56:01,630 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2013-11-29 10:56:01,630 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 10:56:01,646 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 7ms)
+2013-11-29 10:56:01,651 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 10:56:01,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2013-11-29 10:56:01,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 10:56:01,678 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2013-11-29 10:56:02,909 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-29 10:56:02,925 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-29 10:56:02,958 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 10:56:02,984 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 30ms)
+2013-11-29 10:56:03,178 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 10:56:03,295 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 111ms)
+2013-11-29 10:56:04,329 [7] INFO  umbraco.BusinessLogic.Log - [Thread 6] Log scrubbed.  Removed all items older than 2013-09-30 10:56:04
+2013-11-29 10:56:04,334 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 6] Application shutdown. Reason: HostingEnvironment
+2013-11-29 10:56:16,498 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-29 10:56:16,585 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 46ms)
+2013-11-29 10:56:16,615 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 10:56:17,071 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 453ms)
+2013-11-29 10:56:17,143 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 10:56:17,151 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2013-11-29 10:56:17,159 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 10:56:17,166 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2013-11-29 10:56:17,166 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 10:56:17,175 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 7ms)
+2013-11-29 10:56:17,190 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 10:56:17,200 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2013-11-29 10:56:17,201 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 10:56:17,211 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2013-11-29 10:56:18,615 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-29 10:56:18,618 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-29 10:56:18,644 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 10:56:18,669 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 24ms)
+2013-11-29 10:56:18,830 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 10:56:18,887 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 57ms)
+2013-11-29 10:56:19,431 [5] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-11-29 10:56:20,176 [5] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-29 10:56:20,186 [5] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 13ms)
+2013-11-29 14:00:01,784 [5] INFO  umbraco.BusinessLogic.Log - [Thread 35] Log scrubbed.  Removed all items older than 2013-09-30 14:00:01
+2013-11-29 14:00:01,804 [5] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 35] Application shutdown. Reason: HostingEnvironment
+2013-11-29 19:13:34,872 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-11-29 19:13:35,052 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 136ms)
+2013-11-29 19:13:35,103 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2013-11-29 19:13:36,718 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1615ms)
+2013-11-29 19:13:37,070 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2013-11-29 19:13:37,080 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2013-11-29 19:13:37,096 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2013-11-29 19:13:37,112 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 13ms)
+2013-11-29 19:13:37,118 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2013-11-29 19:13:37,118 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 14ms)
+2013-11-29 19:13:37,160 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2013-11-29 19:13:37,180 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 15ms)
+2013-11-29 19:13:37,180 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2013-11-29 19:13:37,196 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 15ms)
+2013-11-29 19:13:41,254 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2013-11-29 19:13:41,254 [5] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2013-11-29 19:13:41,300 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2013-11-29 19:13:41,334 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 38ms)
+2013-11-29 19:13:41,734 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2013-11-29 19:13:41,858 [5] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 125ms)
+2013-11-29 19:13:44,501 [5] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2013-11-29 19:13:46,384 [5] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2013-11-29 19:13:46,403 [5] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 20ms)

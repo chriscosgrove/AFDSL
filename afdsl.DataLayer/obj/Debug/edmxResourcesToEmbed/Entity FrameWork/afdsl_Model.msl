@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="afdsl_Model" />
+  <Alias Key="Target" Value="afdsl_Model.Store" />
+  <EntityContainerMapping CdmEntityContainer="afdsl_ModelContainer1" StorageEntityContainer="afdsl_ModelStoreContainer">
+    <EntitySetMapping Name="cmsMembers">
+      <EntityTypeMapping TypeName="afdsl_Model.cmsMember">
+        <MappingFragment StoreEntitySet="cmsMember">
+          <ScalarProperty Name="FK_User_Table" ColumnName="FK_User_Table" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="afdsl_Custom_User_Table">
+      <EntityTypeMapping TypeName="afdsl_Model.afdsl_Custom_User_Table">
+        <MappingFragment StoreEntitySet="afdsl_Custom_User_Table">
+          <ScalarProperty Name="email_Confirmation" ColumnName="email_Confirmation" />
+          <ScalarProperty Name="Guid" ColumnName="Guid" />
+          <ScalarProperty Name="created_Date" ColumnName="created_Date" />
+          <ScalarProperty Name="email_SignUp" ColumnName="email_SignUp" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="afdsl_Newsletter">
+      <EntityTypeMapping TypeName="afdsl_Model.afdsl_Newsletter">
+        <MappingFragment StoreEntitySet="afdsl_Newsletter">
+          <ScalarProperty Name="FK_UserTable" ColumnName="FK_UserTable" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">	
+	<section class="container">
+	<img class="" src="/Web_Assets/Images/afdsl_CertificatesBanner.png"/>
+	</section>
+	<section class="container pageContent">
+		<div class="sixteen columns">
+			<div class="ten columns">
+				<h3>We are fully certified and licensed producers of acoustic and fire safety doors. With our certification we are able to supply internationally.
+					Sign up for an user account and gain full acces to our certificates.
+				</h3>
+			</div>
+		</div>
+		
+		<umbraco:Macro NodeNumber="1115" TypeName="CertificateItems" NumberOfPosts="0" Alias="afdslCertificateItems" runat="server"></umbraco:Macro>
+		
+	</section>
+</asp:Content>

@@ -1,0 +1,10 @@
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\afdsl.DataLayer.dll
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\afdsl.DataLayer.pdb
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\obj\Debug\afdsl.DataLayer.dll
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\obj\Debug\afdsl.DataLayer.pdb
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\afdsl.DataLayer.dll.config
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\EntityFramework.dll
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\EntityFramework.xml
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Development\AFDSL_Version_Two\afdsl.Solution\afdsl.DataLayer\obj\Debug\afdsl.DataLayer.csprojResolveAssemblyReference.cache

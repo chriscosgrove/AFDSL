@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">	
+	<section class="container">
+	<img class="" src="/Web_Assets/Images/afdsl_ProductRangeBanner.png"/>
+	</section>
+<section class="container pageContent">
+	<div class="sixteen columns">
+		<h3>View the data on our full range of doors</h3>
+	</div>
+</section>
+<section class="container pageContent">
+	<div class="four columns Door_Thumbs">
+		<img class="" src="/Web_Assets/Images/afdsl_SingleDoorFlushIcon.png"/>
+		<h4><a href="">Single Door Flush</a></h4>
+	</div>
+	<div class="four columns Door_Thumbs">
+		<img class="" src="/Web_Assets/Images/afdsl_Single_Door_GlazedIcon.png"/>
+		<h4><a href="">Single Door Glazed</a></h4>
+	</div>
+	<div class="four columns Door_Thumbs">
+		<img class="" src="/Web_Assets/Images/afdsl_Double_Door_FlushIcon.png"/>
+		<h4><a href="">Double Door Flush</a></h4>
+	</div>
+	<div class="four columns Door_Thumbs">
+		<img class="" src="/Web_Assets/Images/afdsl_Double_Door_Glazed.png"/>
+		<h4><a href="">Double Door Glazed</a></h4>
+	</div>
+</section>
+</asp:Content>

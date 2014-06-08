@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="Content" runat="server">	
+
+<section class="container pageContent">
+		<umbraco:Macro NodeNumber="1098" NumberOfPosts="0" TypeName="Blog" Alias="afdslBlogPosts" runat="server"></umbraco:Macro>
+</section>
+</asp:Content>

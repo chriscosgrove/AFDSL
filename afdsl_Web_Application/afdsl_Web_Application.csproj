@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{88D6DE35-7B1E-4342-98AD-FB2939E16DF5}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>afdsl_Web_Application</RootNamespace>
+    <AssemblyName>afdsl_Web_Application</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="businesslogic">
+      <HintPath>reference_Bin\businesslogic.dll</HintPath>
+    </Reference>
+    <Reference Include="cms">
+      <HintPath>reference_Bin\cms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="umbraco">
+      <HintPath>reference_Bin\umbraco.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="afdsl_UserControls\afdsl_Blog_Post.ascx" />
+    <Content Include="afdsl_UserControls\afdsl_Blog_Posts.ascx" />
+    <Content Include="afdsl_UserControls\afdsl_Certificates.ascx" />
+    <Content Include="afdsl_UserControls\Gallery Home Page UserControls\afdsl_Gallery_HomePage.ascx" />
+    <Content Include="afdsl_UserControls\Gallery UserControls\afdsl_Gallery.ascx" />
+    <Content Include="afdsl_UserControls\Hero Gallery Item UserControls\afdsl_Hero_Gallery_Item.ascx" />
+    <Content Include="afdsl_UserControls\Log Out UserControls\afdsl_LogOut.ascx" />
+    <Content Include="afdsl_UserControls\Login UserControls\afdsl_Login.ascx" />
+    <Content Include="afdsl_UserControls\NewsLetter UserControls\afdsl_NewsLetter_SignUp.ascx" />
+    <Content Include="afdsl_UserControls\Registration UserControls\afdsl_Confirm_Email.ascx" />
+    <Content Include="afdsl_UserControls\Registration UserControls\afdsl_Registration.ascx" />
+    <Content Include="afdsl_UserControls\Reset-Password UserControls\afdsl_Reset_Password_Confirm.ascx" />
+    <Content Include="bin\afdsl.BusinessLayer.dll" />
+    <Content Include="bin\afdsl.BusinessLayer.pdb" />
+    <Content Include="bin\afdsl.DataLayer.dll" />
+    <Content Include="bin\afdsl_Web_Application.dll" />
+    <Content Include="bin\afdsl_Web_Application.pdb" />
+    <Content Include="bin\businesslogic.dll" />
+    <Content Include="bin\businesslogic.xml" />
+    <Content Include="bin\ClientDependency.Core.dll" />
+    <Content Include="bin\cms.dll" />
+    <Content Include="bin\cms.xml" />
+    <Content Include="bin\controls.dll" />
+    <Content Include="bin\controls.xml" />
+    <Content Include="bin\CookComputing.XmlRpcV2.dll" />
+    <Content Include="bin\EntityFramework.dll" />
+    <Content Include="bin\Examine.dll" />
+    <Content Include="bin\HtmlAgilityPack.dll" />
+    <Content Include="bin\HtmlAgilityPack.xml" />
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\interfaces.dll" />
+    <Content Include="bin\interfaces.xml" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\Lucene.Net.dll" />
+    <Content Include="bin\Lucene.Net.xml" />
+    <Content Include="bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="bin\Microsoft.Web.Mvc.FixedDisplayModes.dll" />
+    <Content Include="bin\MiniProfiler.dll" />
+    <Content Include="bin\MiniProfiler.xml" />
+    <Content Include="bin\MySql.Data.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="bin\Newtonsoft.Json.xml" />
+    <Content Include="bin\System.Net.Http.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.dll" />
+    <Content Include="bin\System.Net.Http.Formatting.xml" />
+    <Content Include="bin\System.Net.Http.xml" />
+    <Content Include="bin\System.Web.Http.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.dll" />
+    <Content Include="bin\System.Web.Http.WebHost.xml" />
+    <Content Include="bin\System.Web.Http.xml" />
+    <Content Include="bin\TidyNet.dll" />
+    <Content Include="bin\Umbraco.Core.dll" />
+    <Content Include="bin\Umbraco.Core.xml" />
+    <Content Include="bin\umbraco.DataLayer.dll" />
+    <Content Include="bin\umbraco.DataLayer.xml" />
+    <Content Include="bin\umbraco.dll" />
+    <Content Include="bin\umbraco.providers.dll" />
+    <Content Include="bin\umbraco.providers.xml" />
+    <Content Include="bin\umbraco.xml" />
+    <Content Include="bin\umbraco.XmlSerializers.dll" />
+    <Content Include="bin\UmbracoExamine.dll" />
+    <Content Include="bin\UmbracoExamine.xml" />
+    <Content Include="reference_Bin\afdsl.BusinessLayer.dll" />
+    <Content Include="reference_Bin\afdsl.BusinessLayer.pdb" />
+    <Content Include="reference_Bin\afdsl.DataLayer.dll" />
+    <Content Include="reference_Bin\afdsl.DataLayer.pdb" />
+    <Content Include="reference_Bin\afdsl_Web_Application.dll" />
+    <Content Include="reference_Bin\afdsl_Web_Application.pdb" />
+    <Content Include="reference_Bin\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
+    <Content Include="reference_Bin\amd64\Microsoft.VC90.CRT\README_ENU.txt" />
+    <Content Include="reference_Bin\amd64\sqlceca40.dll" />
+    <Content Include="reference_Bin\amd64\sqlcecompact40.dll" />
+    <Content Include="reference_Bin\amd64\sqlceer40EN.dll" />
+    <Content Include="reference_Bin\amd64\sqlceme40.dll" />
+    <Content Include="reference_Bin\amd64\sqlceqp40.dll" />
+    <Content Include="reference_Bin\amd64\sqlcese40.dll" />
+    <Content Include="reference_Bin\businesslogic.dll" />
+    <Content Include="reference_Bin\businesslogic.xml" />
+    <Content Include="reference_Bin\ClientDependency.Core.dll" />
+    <Content Include="reference_Bin\ClientDependency.Core.Mvc.dll" />
+    <Content Include="reference_Bin\cms.dll" />
+    <Content Include="reference_Bin\cms.xml" />
+    <Content Include="reference_Bin\controls.dll" />
+    <Content Include="reference_Bin\controls.xml" />
+    <Content Include="reference_Bin\CookComputing.XmlRpcV2.dll" />
+    <Content Include="reference_Bin\EntityFramework.dll" />
+    <Content Include="reference_Bin\EntityFramework.xml" />
+    <Content Include="reference_Bin\Examine.dll" />
+    <Content Include="reference_Bin\HtmlAgilityPack.dll" />
+    <Content Include="reference_Bin\HtmlAgilityPack.xml" />
+    <Content Include="reference_Bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="reference_Bin\InfoCaster.Umbraco.DateFolders.dll" />
+    <Content Include="reference_Bin\interfaces.dll" />
+    <Content Include="reference_Bin\interfaces.xml" />
+    <Content Include="reference_Bin\log4net.dll" />
+    <Content Include="reference_Bin\Lucene.Net.dll" />
+    <Content Include="reference_Bin\Lucene.Net.xml" />
+    <Content Include="reference_Bin\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="reference_Bin\Microsoft.Web.Helpers.dll" />
+    <Content Include="reference_Bin\Microsoft.Web.Infrastructure.dll" />
+    <Content Include="reference_Bin\Microsoft.Web.Infrastructure.xml" />
+    <Content Include="reference_Bin\Microsoft.Web.Mvc.FixedDisplayModes.dll" />
+    <Content Include="reference_Bin\MiniProfiler.dll" />
+    <Content Include="reference_Bin\MiniProfiler.xml" />
+    <Content Include="reference_Bin\MySql.Data.dll" />
+    <Content Include="reference_Bin\Newtonsoft.Json.dll" />
+    <Content Include="reference_Bin\Newtonsoft.Json.xml" />
+    <Content Include="reference_Bin\Our.Umbraco.uGoLive.47x.dll" />
+    <Content Include="reference_Bin\Our.Umbraco.uGoLive.Checks.dll" />
+    <Content Include="reference_Bin\Our.Umbraco.uGoLive.dll" />
+    <Content Include="reference_Bin\SQLCE4Umbraco.dll" />
+    <Content Include="reference_Bin\SQLCE4Umbraco.XML" />
+    <Content Include="reference_Bin\System.Data.SqlServerCe.dll" />
+    <Content Include="reference_Bin\System.Data.SqlServerCe.Entity.dll" />
+    <Content Include="reference_Bin\System.Net.Http.dll" />
+    <Content Include="reference_Bin\System.Net.Http.Formatting.dll" />
+    <Content Include="reference_Bin\System.Net.Http.Formatting.xml" />
+    <Content Include="reference_Bin\System.Net.Http.WebRequest.dll" />
+    <Content Include="reference_Bin\System.Net.Http.WebRequest.xml" />
+    <Content Include="reference_Bin\System.Net.Http.xml" />
+    <Content Include="reference_Bin\System.Web.Helpers.dll" />
+    <Content Include="reference_Bin\System.Web.Helpers.xml" />
+    <Content Include="reference_Bin\System.Web.Http.dll" />
+    <Content Include="reference_Bin\System.Web.Http.WebHost.dll" />
+    <Content Include="reference_Bin\System.Web.Http.WebHost.xml" />
+    <Content Include="reference_Bin\System.Web.Http.xml" />
+    <Content Include="reference_Bin\System.Web.Mvc.dll" />
+    <Content Include="reference_Bin\System.Web.Mvc.xml" />
+    <Content Include="reference_Bin\System.Web.Razor.dll" />
+    <Content Include="reference_Bin\System.Web.Razor.xml" />
+    <Content Include="reference_Bin\System.Web.WebPages.Deployment.dll" />
+    <Content Include="reference_Bin\System.Web.WebPages.Deployment.xml" />
+    <Content Include="reference_Bin\System.Web.WebPages.dll" />
+    <Content Include="reference_Bin\System.Web.WebPages.Razor.dll" />
+    <Content Include="reference_Bin\System.Web.WebPages.Razor.xml" />
+    <Content Include="reference_Bin\System.Web.WebPages.xml" />
+    <Content Include="reference_Bin\TidyNet.dll" />
+    <Content Include="reference_Bin\Umbraco.Core.dll" />
+    <Content Include="reference_Bin\Umbraco.Core.xml" />
+    <Content Include="reference_Bin\umbraco.DataLayer.dll" />
+    <Content Include="reference_Bin\umbraco.DataLayer.xml" />
+    <Content Include="reference_Bin\umbraco.dll" />
+    <Content Include="reference_Bin\umbraco.editorControls.dll" />
+    <Content Include="reference_Bin\umbraco.editorControls.xml" />
+    <Content Include="reference_Bin\umbraco.MacroEngines.dll" />
+    <Content Include="reference_Bin\umbraco.MacroEngines.xml" />
+    <Content Include="reference_Bin\umbraco.macroRenderings.dll" />
+    <Content Include="reference_Bin\umbraco.macroRenderings.xml" />
+    <Content Include="reference_Bin\umbraco.providers.dll" />
+    <Content Include="reference_Bin\umbraco.providers.xml" />
+    <Content Include="reference_Bin\Umbraco.Web.UI.dll" />
+    <Content Include="reference_Bin\umbraco.xml" />
+    <Content Include="reference_Bin\umbraco.XmlSerializers.dll" />
+    <Content Include="reference_Bin\UmbracoExamine.dll" />
+    <Content Include="reference_Bin\UmbracoExamine.XML" />
+    <Content Include="reference_Bin\UrlRewritingNet.UrlRewriter.dll" />
+    <Content Include="reference_Bin\x86\Microsoft.VC90.CRT\msvcr90.dll" />
+    <Content Include="reference_Bin\x86\Microsoft.VC90.CRT\README_ENU.txt" />
+    <Content Include="reference_Bin\x86\sqlceca40.dll" />
+    <Content Include="reference_Bin\x86\sqlcecompact40.dll" />
+    <Content Include="reference_Bin\x86\sqlceer40EN.dll" />
+    <Content Include="reference_Bin\x86\sqlceme40.dll" />
+    <Content Include="reference_Bin\x86\sqlceqp40.dll" />
+    <Content Include="reference_Bin\x86\sqlcese40.dll" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="afdsl_UserControls\afdsl_Blog_Post.ascx.cs">
+      <DependentUpon>afdsl_Blog_Post.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\afdsl_Blog_Post.ascx.designer.cs">
+      <DependentUpon>afdsl_Blog_Post.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\afdsl_Blog_Posts.ascx.cs">
+      <DependentUpon>afdsl_Blog_Posts.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\afdsl_Blog_Posts.ascx.designer.cs">
+      <DependentUpon>afdsl_Blog_Posts.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\afdsl_Certificates.ascx.cs">
+      <DependentUpon>afdsl_Certificates.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\afdsl_Certificates.ascx.designer.cs">
+      <DependentUpon>afdsl_Certificates.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Gallery Home Page UserControls\afdsl_Gallery_HomePage.ascx.cs">
+      <DependentUpon>afdsl_Gallery_HomePage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Gallery Home Page UserControls\afdsl_Gallery_HomePage.ascx.designer.cs">
+      <DependentUpon>afdsl_Gallery_HomePage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Gallery UserControls\afdsl_Gallery.ascx.cs">
+      <DependentUpon>afdsl_Gallery.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Gallery UserControls\afdsl_Gallery.ascx.designer.cs">
+      <DependentUpon>afdsl_Gallery.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Hero Gallery Item UserControls\afdsl_Hero_Gallery_Item.ascx.cs">
+      <DependentUpon>afdsl_Hero_Gallery_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Hero Gallery Item UserControls\afdsl_Hero_Gallery_Item.ascx.designer.cs">
+      <DependentUpon>afdsl_Hero_Gallery_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Log Out UserControls\afdsl_LogOut.ascx.cs">
+      <DependentUpon>afdsl_LogOut.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Log Out UserControls\afdsl_LogOut.ascx.designer.cs">
+      <DependentUpon>afdsl_LogOut.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Login UserControls\afdsl_Login.ascx.cs">
+      <DependentUpon>afdsl_Login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Login UserControls\afdsl_Login.ascx.designer.cs">
+      <DependentUpon>afdsl_Login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\NewsLetter UserControls\afdsl_NewsLetter_SignUp.ascx.cs">
+      <DependentUpon>afdsl_NewsLetter_SignUp.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\NewsLetter UserControls\afdsl_NewsLetter_SignUp.ascx.designer.cs">
+      <DependentUpon>afdsl_NewsLetter_SignUp.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Registration UserControls\afdsl_Confirm_Email.ascx.cs">
+      <DependentUpon>afdsl_Confirm_Email.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Registration UserControls\afdsl_Confirm_Email.ascx.designer.cs">
+      <DependentUpon>afdsl_Confirm_Email.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Registration UserControls\afdsl_Registration.ascx.cs">
+      <DependentUpon>afdsl_Registration.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Registration UserControls\afdsl_Registration.ascx.designer.cs">
+      <DependentUpon>afdsl_Registration.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Reset-Password UserControls\afdsl_Reset_Password_Confirm.ascx.cs">
+      <DependentUpon>afdsl_Reset_Password_Confirm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afdsl_UserControls\Reset-Password UserControls\afdsl_Reset_Password_Confirm.ascx.designer.cs">
+      <DependentUpon>afdsl_Reset_Password_Confirm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\afdsl_Web_Application.dll.config" />
+    <Content Include="reference_Bin\afdsl.BusinessLayer.dll.config" />
+    <Content Include="reference_Bin\afdsl_Web_Application.dll.config" />
+    <Content Include="reference_Bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+    <Content Include="reference_Bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\afdsl.BusinessLayer\afdsl.BusinessLayer.csproj">
+      <Project>{c731188b-a50d-4812-8997-653084696788}</Project>
+      <Name>afdsl.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\afdsl.DataLayer\afdsl.DataLayer.csproj">
+      <Project>{d8eb94c2-69e5-4b25-b75b-55ac035219b2}</Project>
+      <Name>afdsl.DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49367</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49367/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

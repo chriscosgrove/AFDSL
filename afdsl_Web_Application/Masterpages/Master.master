@@ -1,0 +1,120 @@
+﻿<html lang="en" >
+
+<head>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />		
+	<meta name="description" content="<umbraco:Item field="metaDescription" runat="server" />" />
+	<meta name="keywords" content="<umbraco:Item field="MetaKeywords" runat="server" />" />
+	<meta name="author" content="<umbraco:Item field="metaAuthor" runat="server" />" />
+	<!--Google+ Metadata -->
+	<meta itemprop="name" content="" />
+	<meta itemprop="description" content="" />
+	<meta itemprop="image" />
+	<!--Facebook Metadata -->
+	<meta property="og:image" />
+	<meta property="og:description" content=""/>
+	<meta property="og:title" content="" />
+	<!--Twitter Metadata -->
+	<meta name="twitter:card" value="summary">
+	<meta name="twitter:site" value="@yoast">
+	<meta name="twitter:creator" value="@michielheijmans">	
+	<link rel="stylesheet" type="text/css" href="/Css/fluid_skeleton.css">
+	<link rel="stylesheet" type="text/css" href="/Css/main.css">
+	<title><umbraco:Item field="pageTitle" runat="server" /></title>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="/Scripts/jquery.bxslider.js"></script>
+	<link href="/Css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="/Web_Assets/Images/afdsl_shortCutIcon.png">
+	
+	<!-- lightbox -->
+	<link rel="stylesheet" href="/nivo-lightbox/nivo-lightbox.css" type="text/css" />
+	<link rel="stylesheet" href="/nivo-lightbox/themes/default/default.css" type="text/css" />
+	<script src="/nivo-lightbox/nivo-lightbox.min.js"></script>
+
+	
+	<!-- include Cycle plugin -->
+	<script type="text/javascript" src="http://malsup.github.com/jquery.cycle.all.js"></script>
+	
+    <title><umbraco:Item field="pageTitle" runat="server" /></title>
+</head>
+
+<body class="<umbraco:Item field="bodyClass" runat="server" />">
+	<form runat="server">
+      <asp:ScriptManager ID="ScriptManager" runat="server" />
+	 <header class="header_login_Nav">
+		<section class="container">
+			<umbraco:Macro Alias="afdslLogOut" runat="server" />
+				<!--<div class="header_login_Links">
+					<img src="/Web_Assets/Images/sign_In_Icon.png"/><h4 id="login"><a href="/members/login-area.aspx">Login</a></h4>
+				</div>
+				<div class="header_login_Links ">
+					<img src="/Web_Assets/Images/sign_Up_Icon.png"/><h4><a href="/members/registration-area.aspx">Sign Up</a></h4>
+				</div>-->
+			
+		</section>
+    </header>
+		<hr class="linear_Line">
+	<nav>
+		<section class="container nav_container">
+			<div class="nav_afdsl_Logo six columns">
+				<a href="/home.aspx"><img src="/Web_Assets/Images/afdsl_Logo.png"/></a>
+			</div>
+			<div class="nav_Wrapper ten columns">
+				<div class="nav_Wrapper_Top_Three">
+					<ul>
+						<li><a href="/product-range.aspx">PRODUCT RANGE</a></li>
+						<li><a href="/certificates.aspx">CERTIFICATION</a></li>
+						<li><a href="/distribution.aspx">DISTRIBUTION</a></li>
+					</ul>
+				</div>
+				<div class="nav_Wrapper_Bottom_Five">
+					<ul>
+						<li><a href="/about-us.aspx">ABOUT US</a></li>
+						<li><a href="/policies.aspx">POLICY</a></li>
+						<li><a href="/blog.aspx">BLOG</a></li>
+						<li><a href="/gallery.aspx">GALLERY</a></li>
+						<li><a href="/contact-us.aspx">CONTACT US</a></li>
+					</ul>
+				</div>
+				<div>				
+				</div>
+			</div>
+		</section>
+	</nav>
+	
+<asp:ContentPlaceHolder id="body" runat="server">
+</asp:ContentPlaceHolder>
+	
+    <footer class="container">
+	<hr class="linear_Line">
+		<div class="footer_Wrapper">
+			<div class="four columns footer">
+				<img src="/Web_Assets/Images/afdsl_Logo_Footer.png"/>
+				<p>
+					No.3 THE ESPLANADE, BROUGHTY FERRY,
+					DUNDEE, 
+					UNITED KINGDOM DD5 2EL
+					TEL: +44 1382 779993 E: KSHEPHERD@AFDS.COM
+				</p>
+			</div>
+			<div class="three columns footer">
+				<ul>
+					<li><h3>Quick Links</h3></li>
+					<li><a href="/about-us.aspx">About Us</a> </li>
+					<li><a href="/terms-and-conditions.aspx">Terms &amp; Conditions</a> </li>
+					<li><a href="/cookie-policy.aspx">Cookie Policy</a></li>
+					<li>Privacy Policy</li>
+					<li>FAQ</li>
+				</ul>
+			</div>
+			<div class="footer">
+				<h3>&copy; COPYRIGHT AFDS 2013</h3>
+				<p>All designs, production and artwork belongs to AFDS and cannot be reporiduced without permission</p>
+			</div>
+		</div>
+    </footer>
+	</form>
+</body>
+</html>

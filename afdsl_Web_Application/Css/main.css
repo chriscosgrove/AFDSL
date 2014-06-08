@@ -1,0 +1,1122 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face
+{
+font-family: Nexa-bold;
+src: url('/Web_Assets/web_Fonts/Nexa_Free_Light-Webfont/Webfonts/Nexa_Free_Bold-webfont.ttf'),
+     url('/Web_Assets/web_Fonts/Nexa_Free_Light-Webfont/Webfonts/Nexa_Free_Bold-webfont.eot'); /* IE9 */
+}
+
+@font-face
+{
+font-family: Nexa-light;
+src: url('/Web_Assets/web_Fonts/Nexa_Free_Light-Webfont/Webfonts/Nexa_Free_Light-webfont.ttf'),
+     url('/Web_Assets/web_Fonts/Nexa_Free_Light-Webfont/Webfonts/Nexa_Free_Light-webfont.eot'); /* IE9 */
+}
+
+body 
+{
+	margin:0;
+	background: rgba(209,209,209,1);
+	background: -moz-linear-gradient(left, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(209,209,209,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(100%, rgba(212,212,212,1)));
+	background: -webkit-linear-gradient(left, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+	background: -o-linear-gradient(left, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+	background: -ms-linear-gradient(left, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+	background: linear-gradient(to right, rgba(209,209,209,1) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 51%, rgba(212,212,212,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d1d1d1', endColorstr='#d4d4d4', GradientType=1 );
+font-family: Nexa-light;}
+
+
+.linear_Line { 
+	height: 2px;
+	background: black;
+	background: -webkit-gradient(linear, 0 0, 55% 0, from(blue), to(red), color-stop(60%, blue ));
+	border: 0;
+	margin:0;
+}
+
+
+/****** Login Bar Start ******/
+.header_login_Wrapper
+{
+	float: right;
+	display: inline-block;
+	width: 240px;
+}
+
+.header_login_Nav
+{
+	background-color:#252525;
+	height: 20px;
+}
+
+.header_login_Links
+{
+	float: right;
+	width: 100px;
+}
+
+.header_login_Links a, .header_login_Links h4
+{
+	color: white;
+}
+
+
+.header_login_Links img 
+{
+    float: left;
+    padding-right: 5px;
+	display:block;
+}
+
+/****** Login Bar End ******/
+
+
+/****** Nav Bar Start ******/
+
+.nav_Section
+{
+	background-color:black;
+}
+
+
+nav 
+{
+	height:125px;
+	background-color:#b7b7b7;
+	-webkit-box-shadow: 0px 9px 29px -11px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 9px 29px -11px rgba(0,0,0,0.75);
+	box-shadow: 0px 9px 29px -11px rgba(0,0,0,0.75);
+}
+
+.nav_container
+{
+	padding-top:32px;
+
+}
+
+nav .nav_Wrapper_Top_Three ul li
+{
+	font-family: nexa-bold;
+	color: #555666;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	padding-right: 30px;
+}
+
+nav .nav_Wrapper_Top_Three ul li a
+{
+	text-decoration:none;
+	color: #555666;
+
+}
+
+nav .nav_Wrapper_Top_Three ul li a
+{
+	-webkit-transition:color .2s ease-in;  
+	text-decoration:none;
+	color: #555666;
+	border-bottom:;
+}
+
+nav .nav_Wrapper_Top_Three ul li a:hover
+{
+	text-decoration:none;
+	color: #fff;
+	border-bottom: 4px solid red;
+}
+
+
+nav .nav_Wrapper_Bottom_Five ul li
+{
+	-webkit-transition:color .2s ease-in;  
+	color: #555666;
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+nav .nav_Wrapper_Bottom_Five ul li a
+{
+	text-decoration:none;
+	color: #555666;
+}
+
+nav .nav_Wrapper_Bottom_Five ul li a:hover
+{
+	color: #fff;
+	border-bottom: 4px solid red;			
+}
+
+/****** Nav Bar End ******/
+
+
+/****** Footer Start ******/
+footer
+{
+	background-color:#252525;
+	color:#d2d2d2;
+	padding:20px;
+}
+
+.footer_Wrapper
+{
+	padding:20px;
+}
+
+footer img
+{
+	padding-bottom:10px;
+}
+
+footer ul li
+{
+	padding-bottom:10px;
+}
+
+footer ul li a
+{
+	color:#d2d2d2;
+	text-decoration:none;
+}
+
+/****** Footer End ******/
+
+/****** Home Page Start ******/
+
+.left_Shadow
+{
+	float:left;	
+}
+
+.right_Shadow
+{
+	float:right;
+}
+
+.afdsl_GreyBanner
+{
+	background: url("/Web_Assets/Images/afdsl_GreyBanner.png")  repeat-x center;
+	padding:40px;
+	color:white;
+	font-size: 20px;
+	
+}
+/****** Home Page End ******/
+
+.afdsl_GreyBanner img
+{
+	float:left;
+	text-align:centre
+}
+
+.afdsl_GreyBanner h3
+{
+	font-family: nexa-bold;
+	float: left;
+	text-align: centre;
+	margin: 5px;
+}
+
+
+
+.afdsl_GreyBanner p
+{
+	float: left;
+	font-size: 15px;
+	padding-top: 15px;
+}
+
+
+.afdsl_GreyBanner h4 a, .afdsl_Content h4 a, .afdsl_ContentPolicy h4 a, .Blog_Page .blogItem h4 a
+{
+	font-family: nexa-bold;
+	float: left;
+	font-size: 20px;
+	padding-top: 30px;
+	vertical-align:bottom;
+	color: white;
+	text-decoration: none;
+	border-bottom: 4px solid red;
+	letter-spacing: 2px;
+}
+
+
+.afdsl_GreyBanner h4 a:hover, .afdsl_Content h4 a:hover, .afdsl_ContentPolicy h4 a:hover, .Blog_Page .blogItem h4 a:hover, .Gallery_Thumbs h4 a:hover, .viewMore h4 a:hover
+{
+	border-bottom: 4px solid #4f4ced;
+}
+
+.afdsl_HomeTabs
+{
+	background-color:white;
+	padding:10px;
+}
+
+.afdsl_box
+{
+-webkit-box-shadow: -1px 1px 10px -3px rgba(107,107,107,1);
+-moz-box-shadow: -1px 1px 10px -3px rgba(107,107,107,1);
+box-shadow: -1px 1px 10px -3px rgba(107,107,107,1);
+}
+
+.afdsl_blueContentBox
+{
+	border: solid white 5px;
+	background-color: #ededfd;
+	margin: 9px;
+	height: 315px;
+}
+
+.afdsl_blueContentBox h3, .afdsl_ContentPolicy h3
+{
+	font-family: nexa-bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.afdsl_Content 
+{
+	padding:15px;
+}
+
+.image_move
+{
+	margin-right: -12px;
+}
+
+.afdsl_Content h4 a
+{
+	color:#000;
+}
+
+.afdsl_ContentPolicy
+{
+	background: url("/Web_Assets/Images/afdsl_Rainforest.png");
+	border:solid white 5px;
+	margin: 10px;
+	padding: 15px;
+	height:314px;
+	color:white;
+	font-size: 25px;
+	letter-spacing: 5px;
+}
+
+.afdsl_box
+{
+	margin-top: 10px;
+}
+
+
+.newsltterPosition
+{
+	margin-left:28px;
+}
+
+.afdsl_Gallery
+{
+	background: url("/Web_Assets/Images/afdsl_Gallery.png");
+	color:white;
+}
+
+.afdsl_Gallery h4 a
+{
+	color:white;
+}
+
+.About_Us .headingBanner , .Distribution .headingBanner , .Contact_Us .headingBanner , .Terms_and_Conditions .headingBanner, .Policies .headingBanner, .Product_Range .headingBanner, .Cookie_Policy .headingBanner, .Blog_Page .headingBanner, .Certificates .headingBanner, .Registration .headingBanner, .Login .headingBanner, .Thanks_For_Registering .headingBanner, .confirm_Account .headingBanner, .Reset_Password .headingBanner, .Gallery_Thumbs .headingBanner 
+
+{
+	background: url("/Web_Assets/Images/afdsl_GreyBanner.png")  repeat-x center;
+	padding: 20px;
+}
+
+.About_Us .headingBanner h1, .Distribution .headingBanner h1, .Contact_Us .headingBanner h1, .Terms_and_Conditions .headingBanner h1, .Policies .headingBanner h1, .Product_Range .headingBanner h1, .Cookie_Policy .headingBanner h1, .Blog_Page .headingBanner h1, .Certificates .headingBanner h1, .Registration .headingBanner h1, .Login .headingBanner h1, .Thanks_For_Registering  .headingBanner h1, .confirm_Account .headingBanner h1, .Reset_Password .headingBanner h1, .Gallery_Thumbs .headingBanner h1
+{
+	font-family: nexa-bold;
+	float: left;
+	font-size: 20px;
+	vertical-align:bottom;
+	color: white;
+	text-decoration: none;
+	border-bottom: 4px solid red;
+	letter-spacing: 2px;
+}
+
+.About_Us  .pageContent, .Distribution  .pageContent, .Contact_Us  .pageContent, .Terms_and_Conditions  .pageContent, .Policies  .pageContent, .Product_Range  .pageContent, .Cookie_Policy  .pageContent, .Blog_Page  .pageContent, .Certificates  .pageContent, .Registration  .pageContent, .Login  .pageContent, .Thanks_For_Registering  .pageContent, .confirm_Account  .pageContent, .Reset_Password  .pageContent, .Gallery_Thumbs .pageContent
+{
+	padding: 20px;
+	background-color: white;
+}
+
+.About_Us  .pageContent h3, .Distribution .pageContent h3, .Contact_Us .pageContent h3, .Terms_and_Conditions .pageContent h3, .Policies .pageContent h3, .Cookie_Policy .pageContent h3, .Blog_Page .pageContent h3, .Certificates .pageContent h3, .Registration .pageContent h3, .Login .pageContent h3, .Thanks_For_Registering .pageContent h3, .confirm_Account .pageContent h3, .Forgot_Password .pageContent h3, .Gallery_Thumbs .pageContent h3
+{
+	padding: 10px;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.Product_Range .pageContent h3
+{
+	padding: 10px;
+	font-size: 18px;
+}
+
+.Contact_Us .address
+{
+	margin-top:20px;
+}
+
+.Contact_Us .address ul, .Contact_Us .address img
+{
+	float:left;
+}
+
+.Contact_Us .address ul
+{
+	margin-left:20px;
+}
+
+.Contact_Us .address li
+{
+	margin-bottom:5px;
+}
+
+.Contact_Us .ContactSubTitle
+{
+	margin-top:15px;
+}
+
+.Contact_Us .address h5
+{
+	font-family: nexa-bold;
+	margin-bottom: 15px;
+
+}
+
+.TelephoneNumber h5, .TelephoneNumber p
+{
+	margin-left:75px;
+}
+
+
+.Policies .PolicySections
+{
+	padding-bottom:30px;
+}
+
+.Product_Range .pageContent .Door_Thumbs
+{
+	text-align:center
+}
+
+.Product_Range .pageContent .Door_Thumbs h4
+{
+	margin-top:20px;
+	font-size: 20px;
+	font-family: nexa-bold;
+	border-bottom: 4px solid red;
+	letter-spacing: 0.7px;
+}
+
+.Product_Range .pageContent .Door_Thumbs h4 a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.Certificates .certificates_Item
+{
+	padding-top:40px;
+}
+
+
+.Certificates .certificates_Item img
+{
+	float:left;
+}
+
+.Certificates .certificates_Item a
+{
+	color:black;
+}
+
+.Blog_Page .blogItem
+{
+	border: solid white 5px;
+	background-color: #ededfd;
+	margin: 0px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.Blog_Page .blogItem h2
+{
+	font-family: nexa-bold;
+	font-size: 18px;
+	letter-spacing: 2px;
+	margin-bottom:10px;
+	color: #202022;
+	padding: 10px;
+}
+
+.Blog_Page .blogImage
+{
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 55px;
+	
+}
+
+.Blog_Page .blogItem .blogDate 
+{
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+.blogItem h4 a
+{
+	color: #202022 !important;	
+	padding-top: 10px !important;
+}
+
+ 
+.Certificates .certificateTitle
+{
+	font-family: nexa-bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.Button 
+{
+	margin-right: 8px;
+	margin-left: 15px;
+	margin-top: 10px;
+	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color: #ededed;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	border-bottom-right-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	border-bottom-left-radius: 0px;
+	text-indent: -1px;
+	border: 2px solid #dcdcdc;
+	display: inline-block;
+	color: #777777;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+	height: 38px;
+	line-height: 33px;
+	width: 80px;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 1px 0px 0px #ffffff;
+}
+		
+.Button:hover 
+{
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+
+.Button:active 
+{
+	position:relative;
+	top:1px;
+}
+
+.Registration h1
+{
+	font-family: nexa-bold;
+	font-size: 20px;
+}
+
+.Registration .registerInputs
+{
+	padding: 15px 0;
+}
+
+.Registration .registerInputs input
+{
+	float:right;
+	margin-right:70px;
+}
+
+.Registration .loginDoor
+{
+	margin-left: 150px;
+}
+
+.Registration .registrationHeading
+{
+	font-family: nexa-bold;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.Registration .registerButton input
+{
+	float:right;
+}
+
+.LoginWidget .registerInputs
+{
+	padding:20px;
+	font-family: nexa-bold;
+	
+}
+
+.LoginWidget .registerInputs input
+{
+	float:right;
+}
+
+.CookieLogin
+{
+	font-size: 12px;
+	color: grey;
+}
+
+.CookieLogin a
+{
+	font-size: 12px;
+	color: grey;
+}
+
+
+.Login .PageContent h1
+{
+	font-family: nexa-bold;
+	font-size: 22px;
+}
+
+.Login .buttonLogin
+{
+	float:right;
+	margin-bottom:20px;
+}
+
+.Login .loginIntro
+{
+	padding-top: 10px;
+}
+
+.Login .LoginError
+{
+	font-size: 13px;
+	color: red;	
+}
+
+.Login .LoginErrorContainer
+{
+	padding-top:20px;
+	padding-bottom: 15px;
+}
+
+.logOutPosition
+{
+	padding-left:15px;
+}
+
+.Registration .checkBox
+{
+	font-size: 12px;
+	padding-bottom: 0px;
+}
+
+.Registration .registerButton
+{
+	margin-top:20px;
+}
+
+.Registration .Button
+{
+	margin-top:0px;
+}
+
+#body_Content_afdsl_Registration_2_lblerror
+{
+	color:red;
+}
+
+#body_afdsl_NewsLetter_SignUp_2_lblerror
+{
+	color:red;	
+}
+
+.confirm_Account .Button 
+{
+	margin-left:0px;
+	margin-top: 30px;
+}
+
+.confirm_Account .registrationHeading
+{
+margin-bottom: 20px;
+}
+
+
+.Reset_Password .passwordFields
+{
+	padding-bottom:20px;
+}
+
+.newsltterPosition .afdsl_Content input
+{
+	border: 2px solid #b3b3b3;
+   background: #f2f2f2;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   color: #000000;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding:8px;
+   width:280px;
+
+}
+
+.blogIntro
+{
+	
+}
+
+
+#body_afdsl_NewsLetter_SignUp_2_txtEmail
+{
+	margin-top: 20px;
+}
+
+
+#body_afdsl_NewsLetter_SignUp_2_lnkButnNewsLtr
+{
+	padding-top:0;
+}
+
+.Home_Page .blogPost
+{
+	display: block;
+  	position: relative;
+	background-size: cover;
+	padding: 0!important;
+	height: 315px;
+		background-position: -80pX;
+
+}
+
+.Home_Page .blogPost h3
+{
+	font-family: nexa-bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+	opacity: 0.8;
+}
+
+
+.Home_Page .blogPost .blogIntro
+{
+font-size: 13PX;
+
+}
+
+.blogPost h3
+{
+	opacity: 1;
+	padding: 15px;
+	background: rgb(255, 255, 255);
+	-webkit-box-shadow: 0px 5px 7px -2px #000
+	opacity: 0.8;
+}
+
+
+.blogPostIntro
+{
+	margin-top: 75px;
+background-color: white;
+padding: 15px;
+background: rgb(255, 255, 255);
+-webkit-box-shadow: 0px -14px 11px -15px #000000;
+}
+
+
+.blogPostIntro h4 a
+{
+	margin-left:10px;
+}
+
+.Gallery_Thumbs .galleryItem
+{
+margin: 9px;
+}
+
+.Gallery_Thumbs .galleryItem img
+{
+	border: 5px solid white;
+	-webkit-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 0px 18px rgba(50, 50, 50, 0.75);
+}
+
+
+.Gallery_Thumbs .galleryItem a
+{
+	display:block;
+}
+
+
+.Home_Page .bx-wrapper .bxslider
+{
+	margin-left:57px;
+	margin-top:30px;
+}
+
+.blogPost
+{
+margin:10px 8;
+}
+
+
+.Home_Page .slideshow
+{
+	margin:10px;
+	-webkit-box-shadow: -1px 1px 10px -3px rgba(107,107,107,1);
+	padding: 0;
+}
+
+.Home_Page .slideshow img
+{
+	border: solid white 5px;
+	height:314px!important;
+	width:294px!important;
+}
+
+.Home_Page .viewMore h4
+{
+	position: relative;
+	color: white;
+	z-index: 999999;
+	bottom: 170px;
+	left: -40px;
+	float: left;
+	font-size: 20px;
+	padding-top: 30px;
+	vertical-align: bottom;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: nexa-bold;
+}
+
+.viewMore h4 a
+{
+	border-bottom: 4px solid red;
+}
+
+.Home_Page .viewMore h4 a
+{
+	color:white;
+}
+
+.Home_Page .viewMore h3
+{
+	position: relative;
+	color: white;
+	z-index: 999999;
+	bottom: 335px;
+	left: 40px;
+	float: left;
+	font-size: 20px;
+	padding-top: 30px;
+	vertical-align: bottom;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-family: nexa-bold;
+}
+
+.galleryItem 
+{
+	padding:0!important;
+}
+
+.Home_Page .blogpost
+{
+	border: solid white 5px;
+}
+
+.Home_Page .bxslider h1
+{
+	font-size:60px;
+	font-family: nexa-bold;
+}
+
+.Home_Page .bxslider h2
+{
+	font-size: 40px;
+	font-family: nexa-bold;
+	margin-top: 60px;
+}
+
+.Home_Page .bxslider a
+{
+	font-size: 40px;
+	border-bottom: 4px solid red;
+	letter-spacing: 2px;
+	font-family: nexa-bold;
+
+}
+
+.blogItemPage h1
+{
+	font-size: 20px;
+	font-family: nexa-bold;
+	padding-bottom: 10px;
+}
+
+.blogItemPage .blogCreatorAndDate
+{
+	font-size:12px;
+}
+
+
+.blogItemPage .blogImage
+{
+	padding:20px!important;
+}
+
+.blogItemPage .blogBlockQuote
+{
+	width:280px;
+	padding-top: 30px;
+	font-family: Nexa-bold;
+}
+
+
+.blogItemPage img
+{
+	border: 5px solid white;
+	-webkit-box-shadow: -1px 1px 10px -3px rgba(107,107,107,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

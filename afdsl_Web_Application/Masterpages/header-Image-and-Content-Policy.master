@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Content" runat="server">
+	<section class="container">
+	<img class="" src="/Web_Assets/Images/afdsl_Enviro_PolicyBanner.png"/>
+	</section>
+	<section class="container pageContent">
+		<div class="nine columns PolicySections">
+			<h3>Enviromental Policy</h3>
+			<p><umbraco:Item field="environnementalPolicy" runat="server" /></p>
+		</div>
+		
+		<div class="nine columns PolicySections">
+			<h3>Quality Policy</h3>
+			<p><umbraco:Item field="qualityPolicy" runat="server" /></p>
+		</div>
+
+	</section>
+</asp:content>

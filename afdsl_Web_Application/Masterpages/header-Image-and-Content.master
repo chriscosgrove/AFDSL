@@ -1,0 +1,13 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Content" runat="server">
+	<section class="container">
+	<img class="" src="/Web_Assets/Images/afdsl_DistributionBanner.png"/>
+	</section>
+	<section class="container pageContent">
+		<div class="nine columns">
+			<h3><umbraco:Item field="articleSummary" runat="server" /></h3>
+			<p><umbraco:Item field="contentLeftPanel" runat="server" /></p>
+		</div>
+	</section>
+</asp:content>

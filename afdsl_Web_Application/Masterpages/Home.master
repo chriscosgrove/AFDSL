@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="body" runat="server">
+<section>
+<ul class="bxslider">
+	<umbraco:Macro NumberOfPosts="0" TypeName="HeroImageItem" NodeNumber="1240" Alias="afdslHeroGallery" runat="server"></umbraco:Macro>	
+	<li><img src="/Web_Assets/Images/afdsl_HeroImages/afdsl_Hero1.png" /></li>
+	<!--<li><img src="/Web_Assets/Images/afdsl_HeroImages/afdsl_Hero2.png" /></li>
+	<li><img src="/Web_Assets/Images/afdsl_HeroImages/afdsl_Hero1.png" /></li>
+	<li><img src="/Web_Assets/Images/afdsl_HeroImages/afdsl_Hero2.png" /></li>-->
+</ul>	
+</section>
+	
+<section class="container">
+	<img class="left_Shadow" src="/Web_Assets/Images/left_Shadow.png"/>
+	<img class="right_Shadow" src="/Web_Assets/Images/right_Shadow.png"/>
+</section>
+<section class="container afdsl_GreyBanner">
+	<div class="one-third column">
+		<img class="" src="/Web_Assets/Images/afdsl_Door_Icon.png"/>
+		<h3>Product Range</h3>
+		<p>We have complete datasheets for all of our international products.</p>
+		<h4><a href="/product-range.aspx">Read More</a></h4>
+	</div>
+	<div class="one-third column">
+		<img class="" src="/Web_Assets/Images/afdsl_Certification_Icon.png"/>
+		<h3>Certification</h3>
+		<p>Get access to our store of certification for our International standard door products. </p>
+		<h4><a href="/certificates.aspx">Read More</a></h4>
+	</div>
+	<div class="one-third column">
+		<img class="" src="/Web_Assets/Images/afdsl_Truck_Icon.png"/>
+		<h3>Distribution</h3>
+		<p>Our products are available internationally. Click below to see exactly where we distribute to.</p>
+		<h4><a href="/distribution.aspx">Read More</a></h4>
+	</div>
+</section>
+<section class="container afdsl_HomeTabs">
+	<div class="nine columns afdsl_box afdsl_blueContentBox">
+		<div class="nine columns afdsl_Content image_move">
+			<h3>Why Choose AFDS?</h3>
+			<p>At AFDS we do our utmost to produce the finest quality acoustic and fire safety doors in the international market. Let us share our hisotry, heritage and who we are.</p>
+			<h4><a href="/about-us.aspx">Read More</a></h4>
+		</div>
+		<div class="one-third column">
+			<img src="/Web_Assets/Images/afdsl_KenPortrait.png"/>
+		</div>
+	</div>
+	
+	<umbraco:Macro Alias="afdslNewsLetter" runat="server" />
+	
+	<!--<div class="six columns afdsl_box afdsl_blueContentBox newsltterPosition">
+		<div class="sixteen columns afdsl_Content columns afdsl_Content">
+			<h3>Newsletter Sign Up</h3>
+			<p>Sign up to the AFDS newsletter to receive all the latest developments and important announcements</p>
+			<h4><a href="">Read More</a></h4>
+		</div>
+	</div>-->
+	<div class="five columns afdsl_box afdsl_ContentPolicy">
+		<h3>Policy</h3>
+		<p>	OUR ENVIROMENTAL &amp; QUALITY POLICIES</p>
+		<h4><a href="">Read More</a></h4>
+	</div>
+	
+		<umbraco:Macro NodeNumber="1098" TypeName="Blog" NumberOfPosts="1" Alias="afdslBlogPost" runat="server"></umbraco:Macro>
+	
+		<umbraco:Macro NumberOfPosts="0" TypeName="GalleryItem" NodeNumber="1222" Alias="afdslGalleryHopePage" runat="server"></umbraco:Macro>	
+</section>
+	
+<script>
+$(document).ready(function(){
+	$('.bxslider').bxSlider	({
+		captions: true,
+		speed:600,
+		autoStart:true,
+		mode:'fade',
+		infiniteLoop: true,
+		auto:true
+});
+});
+</script>
+<script type="text/javascript">
+	
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' 
+	});
+});
+</script>
+	
+	
+</asp:Content>

@@ -1,0 +1,15 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="body" runat="server">
+<section class="container">
+	<img class="left_Shadow" src="/Web_Assets/Images/afdsl_left_Shadow-2-Col.png"/>
+	<img class="right_Shadow" src="/Web_Assets/Images/afdsl_right_Shadow-2-Col.png"/>
+</section>
+<section class="container headingBanner">
+	<div>
+		<h1><umbraco:Item field="pageHeading" runat="server" /></h1>
+	</div>
+</section>
+<asp:ContentPlaceHolder id="Content" runat="server">
+</asp:ContentPlaceHolder>
+</asp:Content>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs" Space="C-S">
+  <Alias Key="Model" Value="afdsl_Model_Container" />
+  <Alias Key="Target" Value="afdsl_Model_Container.Store" />
+  <EntityContainerMapping CdmEntityContainer="afdsl_Model_ContainerContainer" StorageEntityContainer="afdsl_Model_ContainerStoreContainer">
+    <EntitySetMapping Name="cmsMembers">
+      <EntityTypeMapping TypeName="afdsl_Model_Container.cmsMember">
+        <MappingFragment StoreEntitySet="cmsMember">
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="LoginName" ColumnName="LoginName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="nodeId" ColumnName="nodeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

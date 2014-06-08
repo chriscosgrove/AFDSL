@@ -1,0 +1,21 @@
+/* TEAM */
+	Owner:Ken Shepherd
+	Contact: contact@afdsl.net
+	From: Broughty Ferry, Dundee, Scotland
+
+	Developer: Chris Cosgrove
+	Contact Phone Number: 07813559415
+	Contact Email: chris.cosgrove@live.co.uk
+	Company: DC Thomson
+	From: Broughty Ferry, Dundee, Scotland
+
+	Web designer: Barry Conlon
+	Company: Fourteen Fourteen
+	From:Glasgow, Glasgow, Scotland
+
+
+/* SITE */
+	Last update:08-12-2013
+	Language: English
+	Doctype:HTML5
+	IDE: Visual Studio, Photoshop

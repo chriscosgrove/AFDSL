@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="afdsl_Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityType Name="afdsl_Custom_User_Table">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email_SignUp" Type="bit" Nullable="false" />
+    <Property Name="created_Date" Type="date" Nullable="false" />
+    <Property Name="Guid" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="email_Confirmation" Type="bit" />
+  </EntityType>
+  <EntityType Name="afdsl_Newsletter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Email" Type="nchar" MaxLength="250" Nullable="false" />
+    <Property Name="FK_UserTable" Type="int" />
+  </EntityType>
+  <EntityType Name="cmsMember">
+    <Key>
+      <PropertyRef Name="nodeId" />
+    </Key>
+    <Property Name="nodeId" Type="int" Nullable="false" />
+    <Property Name="Email" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="LoginName" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="1000" Nullable="false" />
+    <Property Name="FK_User_Table" Type="int" />
+  </EntityType>
+  <Association Name="FK_afdsl_Custom_User_Table_afdsl_Custom_User_Table">
+    <End Role="afdsl_Custom_User_Table" Type="Self.afdsl_Custom_User_Table" Multiplicity="1" />
+    <End Role="afdsl_Custom_User_Table1" Type="Self.afdsl_Custom_User_Table" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="afdsl_Custom_User_Table">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="afdsl_Custom_User_Table1">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_afdsl_Newsletter_afdsl_Custom_User_Table">
+    <End Role="afdsl_Custom_User_Table" Type="Self.afdsl_Custom_User_Table" Multiplicity="0..1" />
+    <End Role="afdsl_Newsletter" Type="Self.afdsl_Newsletter" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="afdsl_Custom_User_Table">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="afdsl_Newsletter">
+        <PropertyRef Name="FK_UserTable" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_cmsMember_afdsl_Custom_User_Table">
+    <End Role="afdsl_Custom_User_Table" Type="Self.afdsl_Custom_User_Table" Multiplicity="0..1" />
+    <End Role="cmsMember" Type="Self.cmsMember" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="afdsl_Custom_User_Table">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="cmsMember">
+        <PropertyRef Name="FK_User_Table" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="afdsl_ModelStoreContainer">
+    <EntitySet Name="afdsl_Custom_User_Table" EntityType="Self.afdsl_Custom_User_Table" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="afdsl_Newsletter" EntityType="Self.afdsl_Newsletter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="cmsMember" EntityType="Self.cmsMember" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_afdsl_Custom_User_Table_afdsl_Custom_User_Table" Association="Self.FK_afdsl_Custom_User_Table_afdsl_Custom_User_Table">
+      <End Role="afdsl_Custom_User_Table" EntitySet="afdsl_Custom_User_Table" />
+      <End Role="afdsl_Custom_User_Table1" EntitySet="afdsl_Custom_User_Table" />
+    </AssociationSet>
+    <AssociationSet Name="FK_afdsl_Newsletter_afdsl_Custom_User_Table" Association="Self.FK_afdsl_Newsletter_afdsl_Custom_User_Table">
+      <End Role="afdsl_Custom_User_Table" EntitySet="afdsl_Custom_User_Table" />
+      <End Role="afdsl_Newsletter" EntitySet="afdsl_Newsletter" />
+    </AssociationSet>
+    <AssociationSet Name="FK_cmsMember_afdsl_Custom_User_Table" Association="Self.FK_cmsMember_afdsl_Custom_User_Table">
+      <End Role="afdsl_Custom_User_Table" EntitySet="afdsl_Custom_User_Table" />
+      <End Role="cmsMember" EntitySet="cmsMember" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

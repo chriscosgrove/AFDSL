@@ -1,0 +1,16 @@
+# robots.txt for http://www.afdsl.net/
+
+User-agent: *
+Disallow: /cgi-bin/
+
+User-agent: *
+Disallow: /images/
+
+User-agent: *
+Disallow: /members/
+
+User-agent: *
+Disallow: /cookie-policy.aspx
+
+User-agent: *
+Disallow: /terms-and-conditions.aspx

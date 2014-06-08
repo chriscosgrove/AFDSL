@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+<asp:content ContentPlaceHolderId="Content" runat="server">
+	<section class="container pageContent GalleryThumbItems">
+		<umbraco:Macro NodeNumber="1222" TypeName="GalleryItem" NumberOfPosts="0" Alias="afdslGallery" runat="server"></umbraco:Macro>
+	</section>
+	
+		<script>
+		$(document).ready(function(){
+		
+			$('.GalleryThumbItems a').nivoLightbox({
+			effect: 'fade',                             // The effect to use when showing the lightbox
+			theme: 'default',                           // The lightbox theme to use
+			});
+		});
+		</script>
+</asp:content>

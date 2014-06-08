@@ -1,0 +1,8 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Heading-Template.master" AutoEventWireup="true" %>
+
+
+<asp:content ContentPlaceHolderId="Content" runat="server">
+	<section class="container pageContent">
+		<umbraco:Macro Alias="afdslLoginArea" runat="server"></umbraco:Macro>
+	</section>
+</asp:content>
